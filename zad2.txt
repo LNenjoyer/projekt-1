@@ -1,0 +1,5 @@
+git checkout -b nowa-funkcja			utworzenie nowej funkcji
+echo "Nowa funkcjonalność" > feature.txt	utworzenie pliku tekstowego z zawartością 
+git add feature.txt				dodaje plik textowy do gita
+git commit -m "Dodano nowy plik feature.txt"	commit
+git push origin nowa-funkcja			wysłanie do repozytorium

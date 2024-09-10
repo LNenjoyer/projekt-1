@@ -1,0 +1,8 @@
+git clone https://github.com/KacperZSP3/git_tasks	skopiowanie zadań
+git clone https://github.com/LNenjoyer/projekt-1	zkopiowanie repozytorium
+cd projekt-1						otworzenie projekt-1
+fatal: pathspec 'README.md' did not match any files	błąd
+utworzenie pliku README.md w folderze zadanie		sposób naprawy błędu
+git add README.md					dodanie README.md do repozytorium
+git commit -m "Dodano plik README.md"			wysłanie commita
+git push origin main					wysłanie całości na github

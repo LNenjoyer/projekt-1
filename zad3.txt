@@ -1,0 +1,12 @@
+git checkout -b feature1					utworzenie feature1
+git checkout -b feature2					utworzenie feature2
+git checkout feature1						zmiana na feature1
+zmiany w pliku README.md					.
+git add .							dodanie wszystkiego do gita
+git commit -m "feature1 zmiany w pliku README.md"		commit
+git push origin feature1					wysłanie zmian
+git checkout -b feature2					zmiana na feature2
+git add .							dodanie zmian
+git commit -m "feature ważne zmiany w pliku README.md"		commit
+git push origin feature2					wysłanie zmian
+błędy rozwiązano w git
